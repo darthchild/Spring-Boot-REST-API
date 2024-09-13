@@ -6,7 +6,7 @@ target/
 
 ### Static Resources ###
 /src/main/resources/static/index.html
-/src/main/resources/static/index.js
+/src/main/resources/static/script.js
 /src/main/resources/static/styles.css
 
 ### STS ###
