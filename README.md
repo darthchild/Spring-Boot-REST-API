@@ -65,7 +65,7 @@ You can access the H2 database console in the browser by navigating to `http://l
 - **Username**: `sa`
 - **Password**: `password`
 
-## Getting Started
+## Preview
 
 <img width=800 src="./src/main/resources/img/home.png">
 <br>
