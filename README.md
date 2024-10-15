@@ -49,6 +49,14 @@ This is a simple REST API for managing team member details, implementing basic C
 
 2. The API will be accessible at `http://localhost:8080`.
 
+### Endpoints
+
+- **POST** `/employees` - Add a new employee
+- **GET** `/employees/all` - Retrieve a list of all employees
+- **GET** `/employees/{id}` - Get details of a specific employee by ID
+- **PUT** `/employees/{id}` - Update an employee's details
+- **DELETE** `/employees/{id}` - Remove an employee from the database
+
 ### H2 Database Console
 
 You can access the H2 database console in the browser by navigating to `http://localhost:8080/h2-console`. Use the following credentials:
@@ -57,10 +65,10 @@ You can access the H2 database console in the browser by navigating to `http://l
 - **Username**: `sa`
 - **Password**: `password`
 
-### Endpoints
+## Getting Started
 
-- **POST** `/employees` - Add a new employee
-- **GET** `/employees/all` - Retrieve a list of all employees
-- **GET** `/employees/{id}` - Get details of a specific employee by ID
-- **PUT** `/employees/{id}` - Update an employee's details
-- **DELETE** `/employees/{id}` - Remove an employee from the database
+<img width=800 src="./src/main/resources/img/home.png">
+<br>
+<img width=800 src="./src/main/resources/img/getAll.png">
+<br>
+<img width=800 src="./src/main/resources/img/addNew.png">
