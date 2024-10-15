@@ -1,0 +1,81 @@
+body {
+    font-family: 'Courier New', Courier, monospace !important;
+    background-color: #000;
+    color: #0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.app-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px 0;
+    border-bottom: 1px solid #0f0;
+}
+.navbar-left {
+    display: flex;
+    gap: 10px;
+}
+.navbar-right {
+    display: flex;
+    gap: 10px;
+}
+button, input {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:hover, button.active {
+    background-color: #0f0;
+    color: #000;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block !important;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #0f0;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #030;
+}
+.form-container {
+    margin-top: 20px;
+    border: 1px solid #0f0;
+    padding: 20px;
+}
+.form-container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #000;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+.welcome-message {
+    text-align: center;
+    margin-top: 50px;
+}
