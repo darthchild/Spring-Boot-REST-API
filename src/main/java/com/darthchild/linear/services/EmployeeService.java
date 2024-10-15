@@ -27,7 +27,6 @@ public class EmployeeService {
         return modelMapper.map(
                 employeeRepository.save(employeeEntity),
                 EmployeeDTO.class);
-
         // save() func returns a Entity, but we've to return a DTO, so we convert it with Model Mapper
     }
 

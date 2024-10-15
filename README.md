@@ -1,6 +1,6 @@
-# Employee Details REST API using Spring Boot
+# REST API using Spring Boot
 
-This is a simple REST API for managing employee details, implementing basic CRUD operations. It is built using **Spring Boot** and uses the **H2** in-memory database.
+This is a simple REST API for managing team member details, implementing basic CRUD operations. It is built using **Spring Boot** and uses the **H2** in-memory database.
 
 ## Features
 
@@ -14,8 +14,6 @@ This is a simple REST API for managing employee details, implementing basic CRUD
 - **Spring Boot**
 - **Spring Data JPA**
 - **H2 Database**
-- **ModelMapper** for object mapping
-- **Lombok** (optional)
 - **Java 17**
 
 ## Getting Started
@@ -55,9 +53,9 @@ This is a simple REST API for managing employee details, implementing basic CRUD
 
 You can access the H2 database console in the browser by navigating to `http://localhost:8080/h2-console`. Use the following credentials:
 
-- **JDBC URL**: `jdbc:h2:mem:testdb`
+- **JDBC URL**: `jdbc:h2:file:./database`
 - **Username**: `sa`
-- **Password**: *(leave it empty)*
+- **Password**: `password`
 
 ### Endpoints
 

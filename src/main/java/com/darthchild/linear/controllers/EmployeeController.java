@@ -55,6 +55,4 @@ public class EmployeeController {
     public Boolean deleteEmployeeById(@PathVariable Long id){
         return employeeService.deleteEmployeeById(id);
     }
-
-
 }
